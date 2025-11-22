@@ -57,3 +57,8 @@ the Entire Application is contained within a single Python file.
 ##🤝Contributing 
 
 Contributing are welcome! If you have suggestions for improvement, please open an issue or submit a pull request.
+
+
+*Aurthor - Yatharth Singh* 
+
+*Reg No - 25BAI10657*
