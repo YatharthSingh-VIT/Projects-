@@ -39,11 +39,9 @@ def add_food_item(item_id, name, price, category):
         print(f"Error: Item '{item_id}' already exists in menu.")
         return False
     
-    menu_items[item_id] = {
-        'name': name,
+    menu_items[item_id] = {'name': name,
         'price': price,
-        'category': category
-    }
+        'category': category}
     print(f"Successfully added '{name}' to menu at ₹{price}")
     return True
 
