@@ -1,27 +1,28 @@
-# 🍲Food Menu Management System 
+**🍛Food Menu System**
 
-A simple, Command-Line-Based python script for managing a food menu and handling customer orders. This system allows for displaying menu items, placing orders, calculating bills and performing basic administrative tasks like adding, removing and updating food items 
+ Customers' orders in this fast food restaurant service system can also be handled by Python-based programs that run a few basic food menu items.  It offers the ability to print menu items, place orders, compute the amount owed, and perform a few administrative tasks like adding or removing items from the menu.
 
-## ✨ Features 
-**Menu Display:** View all available food items, their prices, and their categories.
-**Order Management:** Place new orders and veiw all current, pending orders.
-**Billing:** Calculate the total bill for all placed orders.
-**Menu Adminstrative(Admin):**
-   * Add new food items to the menu.
-   * Remove existing food items.
-   * Update the price of any menu item.
-**Search Functionality:** Search For menu items based on their category.
-**Statistics:** Veiw quick statistics on the total number of menu items, orders placed, and average order value.
+ **✨Special points**
 
-## 🚀 Getting Started 
+ **Menu display: +  View all of the food items that are available, along with their corresponding costs and categories.
 
-### Prerequisites 
+ **Order management: + Place new orders and review all existing ones.
 
-This is a Python script and requires **Python 3.x** to run.
+ **Billing:+ Determine the total amount owed for each order placed so far.
 
-##💻Usage 
+**Menu Administrative (Admin)** -- Requirements  Include new meals on the menu.  --* Remove any dish you choose.  --* Modify a food item's price.
+ **Search Functionality:** Look for menu items by category.
+ **Statistics:  View brief data on the average order value, the total amount of menu items, and the number of orders placed.
 
-The system runs in a continous loop, presenting a main menu with 11 options. To interact, Simply enter teh number corresponding to the action you wish to perform.
+ ## Getting Started 
+
+ ### Requirements 
+
+ To run this, the Python script **Python 3.x** is needed.
+
+ ## Usage 
+
+ The system displays an 11-option primary menu while operating in a continuous loop.  To engage, just input the number that corresponds to the desired action.
 | Choice | Action | Description | Access |
 | :----: | :---------------------- | :--------------------------------------------- | :----: |
 | 1 | **Display Menu** | Shows the full list of available food items. | All |
@@ -36,23 +37,21 @@ The system runs in a continous loop, presenting a main menu with 11 options. To 
 | 10 | **View Statistics** | Displays general menu and order metrics. | All |
 | 11 | **Exit** | Closes the application. | All |
 
-##📁Project Structure 
+##📁Project Organization 
 
-the Entire Application is contained within a single Python file.
+ One Python file contains the complete application.
 
-* `Food Menu Mangement system.py` - The core script containing all functions and the main menu loop.
-    * **Data Structures:**
-        *`menu_items`: A dictionary storing food items, keyed by a unique item ID (e.g.`Sushi`).
-        *`orders_list`: A list used to store Dictionaries representing placed order.
-    * **Functions:** Contains helper function drives the application's user interface.
+ * `Food Menu Mangement system.py`: All functions and the primary menu loops are contained in this core script.
+     * **Data Structures:** *`menu_items`: A dictionary with food items stored, each keyed by a distinct item ID (e.g., `Sushi`).
+         * Dictionaries that represent placed orders are stored in a list called `orders_list`. * Functions:  The application's user interface is driven by a helper function.
 
-##💡Future Enhancemets 
+ ## Future Improvements 
 
-* **Persistence:** Save menu and Data to a file (CSV, JSON or a simple database) so the data persists after the script is closed.
-* **Admin Login** Implement a simple password or token system to secure the administrative functions (options 6,7,8).
-* **Order Fulfillment:** Add functionality to mark orders as "Completed" and move them to a history log.
-* **Error Handling:** Improve robustness with more Detailed input validation.
-* **GUI:** Convert teh command-line interface to a Graphical User Interface (GUI) using libraries like Tkinter or PyQt.
+ * **Persistence:** To ensure that the data remains when the script is closed, save the menu and data to a file (CSV, JSON, or a basic database).
+ * **Admin Login** To safeguard administrative operations, use a straightforward password or token system (options 6,7,8).
+ * Order fulfillment: Provide the ability to mark orders as "Completed" and transfer them to the history log.
+ * Error Handling: Enhance resilience through thorough input verification.
+* **GUI:** Convert teh command-line interface to Graphical User Interface (GUI) using libraries like Tkinter or PyQt.
 
 ##🤝Contributing 
 
