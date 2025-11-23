@@ -1,26 +1,19 @@
-**🍛Food Menu System**
+# Food Menu Management System
 
- Customers' orders in this fast food restaurant service system can also be handled by Python-based programs that run a few basic food menu items.  It offers the ability to print menu items, place orders, compute the amount owed, and perform a few administrative tasks like adding or removing items from the menu.
+## Overview
+Hey. This is just a basic project. Menu management, but not so boring. You deal with food items, place orders, update prices, remove dishes—yeah, all that. Just in terminal. Pretty simple, right?
 
- **✨Special points**
+## Features
+- Show menu and prices fast  
+- Add or remove food (Admin stuff)
+- Change prices (Admin)
+- Place and view orders
+- See your total bill
+- Search by category, like Chinese, Dessert, etc
+- Wipe all orders if you feel like it
+- Some basic stats too
 
- **Menu display: +  View all of the food items that are available, along with their corresponding costs and categories.
-
- **Order management: + Place new orders and review all existing ones.
-
- **Billing:+ Determine the total amount owed for each order placed so far.
-
-**Menu Administrative (Admin)** -- Requirements  Include new meals on the menu.  --* Remove any dish you choose.  --* Modify a food item's price.
- **Search Functionality:** Look for menu items by category.
- **Statistics:  View brief data on the average order value, the total amount of menu items, and the number of orders placed.
-
- ## Getting Started 
-
- ### Requirements 
-
- To run this, the Python script **Python 3.x** is needed.
-
- ## Usage 
+## Usage 
 
  The system displays an 11-option primary menu while operating in a continuous loop.  To engage, just input the number that corresponds to the desired action.
 | Choice | Action | Description | Access |
@@ -37,26 +30,24 @@
 | 10 | **View Statistics** | Displays general menu and order metrics. | All |
 | 11 | **Exit** | Closes the application. | All |
 
-##📁Project Organization 
+## Tech / Tools
+- Python 3 to be exact.
+- Only needs your command line.
 
- One Python file contains the complete application.
+## Install & Run Steps
+1. You gotta have Python 3.
+2. Download or clone this project, whatever works for you.
+3. Open terminal or CMD.
+4. Go there—project folder, I mean.
+5. Run this: `python food_menu_management.py`
 
- * `Food Menu Mangement system.py`: All functions and the primary menu loops are contained in this core script.
-     * **Data Structures:** *`menu_items`: A dictionary with food items stored, each keyed by a distinct item ID (e.g., `Sushi`).
-         * Dictionaries that represent placed orders are stored in a list called `orders_list`. * Functions:  The application's user interface is driven by a helper function.
+## How to Test
+- Use the menu. Mess around: add, delete, order.
+- Try searching or checking stats.
+- Clear out everything. Start again.
+- Is it working? Yeah, that’s most of it.
 
- ## Future Improvements 
-
- * **Persistence:** To ensure that the data remains when the script is closed, save the menu and data to a file (CSV, JSON, or a basic database).
- * **Admin Login** To safeguard administrative operations, use a straightforward password or token system (options 6,7,8).
- * Order fulfillment: Provide the ability to mark orders as "Completed" and transfer them to the history log.
- * Error Handling: Enhance resilience through thorough input verification.
-* **GUI:** Convert teh command-line interface to Graphical User Interface (GUI) using libraries like Tkinter or PyQt.
-
-##🤝Contributing 
-
-Contributing are welcome! If you have suggestions for improvement, please open an issue or submit a pull request.
-
+Some things written short. Some casual. Should be easy now. Have fun.
 
 *Aurthor - Yatharth Singh* 
 
